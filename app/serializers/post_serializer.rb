@@ -4,7 +4,7 @@ class PostSerializer < ActiveModel::Serializer   # convirtiendo nuestro archivo 
  
 
     class UserSerializer < ActiveModel::Serializer   # convirtiendo nuestro archivo en formato json
-        attributes :name
+        attributes :name, :token 
     
     end
 
